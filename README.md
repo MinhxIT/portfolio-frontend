@@ -26,7 +26,7 @@ const Component = () => {
         queryLimit: 1000, // Default to 100
         // contentTypes: [`jobs`, `projects`, `blogs`, ],
         //singleTypes:[`about` ]
-        contentTypes: [`jobs`, `projects`, `blogs`],
+        contentTypes: [`jobs`, `projects`],
         singleTypes: [`about`],
       },
     },

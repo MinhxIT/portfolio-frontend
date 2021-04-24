@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
+    title: "MXOZ Portfolio",
+    description: "This is MXOZ Portfolio Site",
     author: "@webdev",
     twitterUsername: "@john_smilga",
     image: "/twitter-img.png",
@@ -30,11 +30,10 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000, // Default to 100
-        //   contentTypes : `jobs`, `projects`, `blogs`,
+        // contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [],
-        singleTypes: [],
+        contentTypes: [`jobs`, `projects`, `blogs`],
       },
     },
     // {
